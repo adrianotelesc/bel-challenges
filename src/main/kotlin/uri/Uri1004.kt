@@ -4,8 +4,8 @@ object Uri1004 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val a = readLine()?.toInt() ?: 0
-        val b = readLine()?.toInt() ?: 0
+        val a = readLine()!!.toInt()
+        val b = readLine()!!.toInt()
 
         val product = a * b
 

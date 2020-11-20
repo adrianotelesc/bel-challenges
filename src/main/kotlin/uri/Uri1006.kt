@@ -8,9 +8,9 @@ object Uri1006 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val a = readLine()?.toDouble() ?: 0.0
-        val b = readLine()?.toDouble() ?: 0.0
-        val c = readLine()?.toDouble() ?: 0.0
+        val a = readLine()!!.toDouble()
+        val b = readLine()!!.toDouble()
+        val c = readLine()!!.toDouble()
 
         val average = (a * WEIGHT_A + b * WEIGHT_B + c * WEIGHT_C) / (WEIGHT_A + WEIGHT_B + WEIGHT_C)
 
