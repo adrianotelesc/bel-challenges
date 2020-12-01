@@ -31,3 +31,4 @@ internal class Uri1009Test : ProgramTest() {
 
         assertOutput("TOTAL = R$ 1884.58")
     }
+}
