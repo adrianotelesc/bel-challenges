@@ -4,9 +4,9 @@ object Uri1008 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val employeeNumber = readLine()?.toInt() ?: 0
-        val workedHoursNumber = readLine()?.toInt() ?: 0
-        val amountPerHour = readLine()?.toDouble()?: 0.0
+        val employeeNumber = readLine()!!.toInt()
+        val workedHoursNumber = readLine()!!.toInt()
+        val amountPerHour = readLine()!!.toDouble()
 
         val salary = workedHoursNumber * amountPerHour
 
