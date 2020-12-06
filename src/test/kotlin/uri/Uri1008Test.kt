@@ -11,7 +11,7 @@ internal class Uri1008Test : ProgramTest() {
 
         Uri1008.main()
 
-        assertOutput("NUMBER = 25\nSALARY = u$ 550.00")
+        assertOutput("NUMBER = 25\nSALARY = U$ 550.00")
     }
 
     @Test
@@ -20,7 +20,7 @@ internal class Uri1008Test : ProgramTest() {
 
         Uri1008.main()
 
-        assertOutput("NUMBER = 1\nSALARY = u$ 4100.00")
+        assertOutput("NUMBER = 1\nSALARY = U$ 4100.00")
     }
 
     @Test
@@ -29,7 +29,7 @@ internal class Uri1008Test : ProgramTest() {
 
         Uri1008.main()
 
-        assertOutput("NUMBER = 6\nSALARY = u$ 2254.75")
+        assertOutput("NUMBER = 6\nSALARY = U$ 2254.75")
     }
 
 }
