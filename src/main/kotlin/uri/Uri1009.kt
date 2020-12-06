@@ -4,7 +4,7 @@ object Uri1009 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val nomeVendedor = readLine()
+        readLine()
         val salario = readLine()!!.toDouble()
         val totalVendas = readLine()!!.toDouble()
 
