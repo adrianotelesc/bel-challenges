@@ -4,13 +4,13 @@ object Uri1008 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val num_func = readLine()?.toInt() ?: 0
-        val qtd_horas = readLine()?.toInt() ?: 0
-        val valor_hora = readLine()?.toDouble()?: 0.0
+        val numFunc = readLine()?.toInt() ?: 0
+        val qtdHoras = readLine()?.toInt() ?: 0
+        val valorHora = readLine()?.toDouble()?: 0.0
 
-        val salary = qtd_horas * valor_hora
+        val salary = qtdHoras * valorHora
 
-        println("NUMBER = $num_func")
+        println("NUMBER = $numFunc")
         println("SALARY = U$ %.2f".format(salary))
     }
 
