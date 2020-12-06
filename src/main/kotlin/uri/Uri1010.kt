@@ -1,24 +1,27 @@
 fun main(args: Array<String>) {
-    var codPeca1 = 0
-    var numPeca1 = 0
-    var valorPeca1 = 0.0
-    var codPeca2 = 0
-    var numPeca2 = 0
-    var valorPeca2 = 0.0
-    var calc = 0.0
-    var numeros = listOf<String>()
+    var codeOfProduct1 = 0
+    var numberOfUnitsOfProduct1 = 0
+    var priceForOneUnitOfProduct1 = 0.0
+    var codeOfProduct2 = 0
+    var numberOfUnitsOfProduct2 = 0
+    var priceForOneUnitOfProduct2 = 0.0
+    var amountToBePaid = 0.0
+    var firstLine = listOf<String>()
+    var secondLine = listOf<String>()
 
-    numeros = readLine()!!.split(' ')
+    firstLine = readLine()!!.split(' ')
 
-    codPeca1 = numeros[0]!!.toInt()
-    numPeca1 = numeros[1]!!.toInt()
-    valorPeca1 = numeros[2]!!.toDouble()
+    codeOfProduct1 = firstLine[0]!!.toInt()
+    numberOfUnitsOfProduct1 = firstLine[1]!!.toInt()
+    priceForOneUnitOfProduct1 = firstLine[2]!!.toDouble()
 
-    codPeca2 = numeros[3]!!.toInt()
-    numPeca2 = numeros[4]!!.toInt()
-    valorPeca2 = numeros[5]!!.toDouble()
+    secondLine = readLine()!!.split(' ')
 
-    calc = (numPeca1 * valorPeca1) + (numPeca2 * valorPeca2)
-    println("VALOR A PAGAR: R$ %.2f".format(calc))
+    codeOfProduct2 = secondLine[0]!!.toInt()
+    numberOfUnitsOfProduct2 = secondLine[1]!!.toInt()
+    priceForOneUnitOfProduct2 = secondLine[2]!!.toDouble()
+
+    amountToBePaid = (numberOfUnitsOfProduct1 * priceForOneUnitOfProduct1) + (numberOfUnitsOfProduct2 * priceForOneUnitOfProduct2)
+    println("VALOR A PAGAR: R$ %.2f".format(amountToBePaid))
 
 }
