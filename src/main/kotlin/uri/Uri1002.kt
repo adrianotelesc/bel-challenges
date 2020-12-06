@@ -6,7 +6,7 @@ object Uri1002 {
 
     @JvmStatic
     fun main(args: Array<String>? = null) {
-        val radius = readLine()?.toDouble() ?: 0.0
+        val radius = readLine()!!.toDouble()
 
         val area = PI * radius * radius
 
