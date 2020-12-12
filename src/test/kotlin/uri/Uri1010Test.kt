@@ -7,8 +7,7 @@ internal class Uri1010Test : ProgramTest() {
 
     @Test
     fun `test URI sample 1`() {
-        input("12 1 5.30")
-        input("16 2 5.10")
+        input("12 1 5.30", "16 2 5.10")
 
         Uri1010.main()
 
@@ -17,8 +16,7 @@ internal class Uri1010Test : ProgramTest() {
 
     @Test
     fun `test URI sample 2`() {
-        input("13 2 15.30")
-        input("161 4 5.20")
+        input("13 2 15.30", "161 4 5.20")
 
         Uri1010.main()
 
@@ -27,8 +25,7 @@ internal class Uri1010Test : ProgramTest() {
 
     @Test
     fun `test URI sample 3`() {
-        input("1 1 15.10")
-        input("2 1 15.10")
+        input("1 1 15.10", "2 1 15.10")
 
         Uri1010.main()
 
